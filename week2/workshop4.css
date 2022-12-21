@@ -1,0 +1,30 @@
+body{
+margin: 0;
+padding: 0;
+
+}
+h1{
+    color: rgb(0, 0, 0);
+    background-color: rgb(244, 207, 159);
+}
+h2{
+    color: rgb(1, 1, 126);
+    background-color: skyblue;
+}
+h3{
+    color: white;
+    background-color: brown;
+}
+h4{
+    color: rgb(68, 0, 132);
+    background-color: rgb(203, 242, 165);
+
+}
+h5{
+    color: rgb(148, 1, 79);
+    background-color: rgb(221, 141, 141);
+}
+h6{
+    color: green;
+    background-color: ivory;
+}
