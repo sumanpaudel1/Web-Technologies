@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="head_logo.png" type="image/x-icon">
+    <title>Suman Paudel | A Web developer</title>
+    <link rel="stylesheet" href="paudel.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Getting the font awesome to get the icons of various things from CDN (Content Delivery Network) -->
+</head>
+<body>
+ <div class="background">
+    <div class="nav">
+        <h2 class="sp">SUMAN PAUDEL</h2>
+            <ul class="nav_ul">
+                <li><a href="Sumanpaudel.html" title="Go to Home"><i class="fa-solid fa-house-chimney"></i></a></li>
+                <li><a href="https://twitter.com/SumanPaudel01" title="Get me in Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://github.com/sumanpaudel1" title="Get me in GitHub"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="#" title="More Options!"><i class="fa-solid fa-bars-staggered"></i></a></li>
+            </ul>
+            <div class="burger" id="navToggler">
+                <span class="b1"></span>
+                <span class="b2"></span>
+                <span class="b3"></span>
+            </div>
+    </div>
+    <div class="container">
+        <div class="image">
+            <img src="suman.png" class="suman-image" />
+        </div>
+        <div class="info">
+            <h1 class="suman"><span class="change">s</span>uman <span class="change">p</span>audel</h1>
+            <p class="suman-text"><span class="greeting">namaste,</span> it's me Suman Paudel a web developer from <span class="imp">Nepal</span>.</p>
+            <div class="region">
+                <a href="https://www.linkedin.com/in/suman-paudel-38b14825a/" title="Hire me by contacting me" class="hire"><i class="fa-solid fa-handshake-simple"></i> Hire Me!</a>
+                <a href="cv.pdf" title="Get my CV" attribute-list download class="cv"><i class="fa-solid fa-download"></i> Download CV</a>
+            </div>
+        </div>
+    </div>
+ </div>
+    <div class="about">
+        <h1 class="about-heading"><span style="margin-top:25px;">About Me</span></h1>
+        <p class="about-me">It's me <strong>Suman Paudel</strong> son of <span class="imp1">Govinda Prasad Paudel and Sarita Paudel</span>. Permanent resident of <span class="imp1">Sainamaina-6, Rupendehi</span>. Currently in <span class="imp1">Kathmandu, Nepal</span>. I was born on <span class="imp1">December 04, 2002</span>. I introduced myself as an <span class="imp1">active</span> and <span class="imp1">curious</span> people who want to learn new things. I have done my +2 (i.e. High School) from <span class="imp1">Kanti Secondary School</span> Butwal, in Science stream. after that I joined <span class="imp1">Herald College</span> for IT degree.</p>
+        <div class="detials">
+            <div class="experiences">
+                <h1 class="exp">experiences</h1>
+                <p class="exp-text">Since, childhood I was quite intreseted in technology world. Being involved in technologies of different kinds I developed various experiences in them.</p>
+                <ul class="exp-list">
+                    <li><i class="fa-solid fa-hand-point-right"></i> 5 months in Web Development.</li>
+                    <li><i class="fa-solid fa-hand-point-right"></i> 1 year in JAVA Programming.</li>
+                    <li><i class="fa-solid fa-hand-point-right"></i> 3 years in Public Speaking.</li>
+                    <li><i class="fa-solid fa-hand-point-right"></i> 2 years in Red-Cross Society.</li>
+                </ul>
+            </div>
+            <div class="stats">
+                <h1 class="sta">status</h1>
+                <p class="sta-text">Currently I am Desining my new portfolio and learning HTML, CSS, JAVASCRIPT and python. </p>
+                <ul class="sta-list">
+                    <li><i class="fa-solid fa-hand-point-right"></i> Web Development, Learning about CSS.</li>
+                    <li><i class="fa-solid fa-hand-point-right"></i> Learning about Python.</li>
+                    <li><i class="fa-solid fa-hand-point-right"></i> Learning about JAVA.</li>
+                </ul>
+            </div>
+            <div class="skills">
+                <h1 class="skill">skills</h1>
+                <p class="skill-text">Skills are acquired, due to which I do have acquired many skills throughout my whole experiences and developed various skills which were useful to me in future.</p>
+                <ul class="skill-list">
+                    <li><i class="fa-solid fa-hand-point-right"></i> JAVA</li>
+                    <li><i class="fa-solid fa-hand-point-right"></i> HTML</li>
+                    <li><i class="fa-solid fa-hand-point-right"></i> CSS</li>
+                    <li><i class="fa-solid fa-hand-point-right"></i> Python</li>
+                </ul>
+            </div>
+        </div>
+        <form  name="myform" class="contact">   
+            <h1  class="cont"> Contact Me</h1>
+            <div class="border2">
+                <input class="center" type="text" name="name"  placeholder="Enter your Name">
+                <input class="center" type="text" name="email" placeholder="Enter your Email Adderess">
+                <input  class="center" type="text" name="contact" placeholder="Enter your Contact Number">
+                <input  class="center" type="text" name="address" placeholder="Enter your Adderess">
+                <textarea class="center" name="text" name="text" cols="30" rows="10" placeholder="Enter your message here" id="text"></textarea>
+                <button  id="btn" onclick="form_validation()" style="width:85px; height:34px; margin:auto; border:3px solid black;cursor:pointer;">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="sector">
+            <div class="ql">
+                <div class="ql-1">
+                    <h3>Quick Links ---</h3>
+                    <ul>
+                        <li class="qls"><a href="#">Home</a></li>
+                        <li class="qls"><a href="#">Contact</a></li>
+                        <li class="qls"><a href="#">About</a></li>
+                        <li class="qls"><a href="#">Love you</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sm">
+                <div class="sm-1">
+                    <h3>Social Media ---</h3>
+                    <ul>
+                        <li class="sma"><a href="https://www.facebook.com/sumanpaudel" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li class="sma"><a href="https://www.tiktok.com/@sumanpaudel49" title="TikTok"><i class="fa-brands fa-tiktok"></i></a></li>
+                        <li class="sma"><a href="https://instagram.com/su_manpaudel" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li class="sma"><a href="https://t.snapchat.com/YEMXVjMH" title="Snapchat"><i class="fa-brands fa-snapchat"></i></a></li>
+                        <li class="sma"><a href="https://twitter.com/SumanPaudel01" title="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cm">
+                <div class="cm-1">
+                    <h3>Contact Me ---</h3>
+                    <p><i class="fa-solid fa-location-dot"></i> Location: Butwal, Nepal</p>
+                    <p><i class="fa-solid fa-phone"></i> Phone: <a href="tel:+977-9841602338">+977-9841602338</a></p>
+                    <p><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:sumanpaudel2004@gmail.com">sumanpaudel2004@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="go">
+                <div class="go-1">
+                    <h3>Get More here ---</h3>
+                    <img src="head_logo.png" />
+                    <p>Suman Web-Developement Company</p>
+                </div>
+            </div>
+        </div>
+        <p class="ending-text">Copyright &copy; 2023 - Suman Paudel | Made with <i class="fa-solid fa-heart"></i> by Suman.</p>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+
+
+</html>
+
+<!-- Developed in 5th Feb, 2023 by Suman Paudel. -->

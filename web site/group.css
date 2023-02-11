@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'raleway',sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: 200px;
+    font-family: 'Raleway', sans-serif;
+}
+.logo{display: block;
+    float: left;
+width: 200px;
+height: auto;
+
+}
+.sp{
+    display: block;
+    float: right;
+    padding-top: 50px;
+    padding-left: 43px;
+   
+
+}
+.sp ul{
+    list-style-type:none;
+}
+
+.sp ul li {
+display: block;
+float: left;
+padding-left: 40px;
+padding-right: 100px;
+padding-top: 30px;
+}
+.sp ul li a {
+    color: #FFF;
+    font-size: 35px;
+}
+
+.name{
+    display: block;
+    background-color: rgb(255, 255, 255);
+
+    width: 100%;
+    height: 200px;
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 50px;
+padding-top:40px ;
+text-align: center;
+}
+.name a{
+    color: rgb(0, 1, 50);
+    font-size: 50px;
+}
+
+.face{
+width: 100%;
+height:580px;
+}
+
+.A{
+    display:inline-block;
+width: 32%;
+background-color: rgb(154, 147, 251);
+height: 560px;
+border-radius: 20px;
+margin-left: 8px;
+}
+.img1{
+    width: 50%;
+    height: 300px;
+    background-color: #FFF;
+    border-radius: 90%;
+}
+.p0{
+    padding-right: 10px;
+    text-align: right;
+}
+.div h1{
+    padding-right: 10px;
+}
+.region {
+    width: 60%;
+    margin-top: 30px;
+    padding-left: 280px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.region a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.hire {
+    display: block;
+    float: left;
+    width: 50%;
+    background: black;
+    margin-right: 25px;
+    padding: 10px 5px 10px 5px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-align: center;
+}
+.B{
+    display:inline-block;
+    width: 32%;
+   background-color: rgb(138, 153, 250);
+    height: 560px;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.C{
+    display:inline-block;
+    width: 32%;
+background-color:rgb(161, 165, 255);
+height: 560px;
+border-radius: 20px;
+margin-left: 5px;
+}
+
+.space{
+    display: block;
+width:100%;
+background-color:rgb(255, 255, 255);
+height:100px;
+}
+
+.hand{
+    width: 100%;
+    height:580px;
+    }
+    
+    .D{
+        display:inline-block;
+        width:32%;
+    background-color: rgb(122, 155, 237);
+    height: 560px;
+    border-radius: 20px;
+    margin-left: 5px;
+    }
+    
+    .E{
+        display:inline-block;
+        width:32%;
+        background-color: rgb(183, 241, 209);
+        height: 560px;
+        border-radius: 20px;
+        margin-left: 5px;
+    }
+    
+    .F{
+        display:inline-block;
+        width:32%;
+    background-color:rgb(248, 255, 181);
+    height: 560px;
+    border-radius: 20px;
+    margin-left: 5px;
+    }
+
+    
+        .para {
+            width: 45%;
+            text-align: center;
+            padding-left: 27%;
+            padding-top: 45px;
+            margin-bottom: 48px;
+        }
+        .about{
+        display: block;
+        width: 100%;
+        height: 489px;
+        text-align: center;
+        }
+    
+
+    .footer {
+        margin-top: 30px;
+        color: #FFF;
+        background-color: black;
+        height: 450px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .sector {
+        width: 100%;
+        height: 380px;
+    }
+    
+    .ql, .sm, .cm, .go {
+        display: block;
+        float: left;
+        width: 25%;
+    }
+    
+    .ql-1, .sm-1, .cm-1, .go-1 {
+        padding: 30px;
+    }
+    
+    .go img {
+        width: 75%;
+        height: auto;
+    }
+    
+    .footer ul {
+        list-style: none;
+    }
+    
+    .footer a {
+        color: #FFF;
+    }
+    
+    .footer a:hover {
+        text-decoration: underline;
+    }
+    
+    .sma {
+        float: left;
+        padding-top: 20px;
+        padding-left: 25px;
+        font-size: 22px;
+    }
+    
+    .qls {
+        padding-top: 10px;
+        padding-left: 120px;
+    }
+    
+    .cm-1 p {
+        padding-top: 20px;
+    }
+    
+    .ending-text {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    

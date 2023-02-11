@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    background: rgb(12, 8, 8);
+    width: 100%;
+    height: 100px;
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    position: sticky;
+    top: 0;
+    transition-property: all;
+    transition-duration: 1s;
+    cursor: pointer;
+
+}
+.burger {
+    display: none;
+   position: absolute;
+   cursor: pointer;
+   right: 5%;
+   top: 15px;
+}
+.burger span {
+    display: inline-block;
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+   
+}
+.nav:hover {
+    background-color:rgb(74, 74, 74);
+
+}
+
+.sp {
+    display: block;
+    padding-top: 23px;
+    padding-left: 25px;
+    float: left;
+    cursor: pointer;
+}
+
+.nav ul {
+    display: block;
+    float: right;
+    width: 40%;
+    list-style: none;
+    padding-top: 30px;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.nav ul li {
+    display: block;
+    float: left;
+    margin-right: 20%;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.nav ul li a:hover {
+    color: #d4e5e0;
+}
+
+.container {
+    width: 100%;
+    height: 767px;
+    background-image: linear-gradient(45deg, #680000, #FFF);
+}
+.cont{
+    margin-left: 700px;
+}
+
+.image{
+    display: block;
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.suman-image {
+    height: 100%;
+    width: auto;
+}
+
+.info {
+    display: block;
+    width: 60%;
+    height: 100%;
+    float: left;
+    padding-top: 130px;
+}
+
+.suman {
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 60px;
+}
+
+.change {
+    color: brown;
+}
+
+.suman-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-left: 280px;
+    padding-right: 10px;
+    padding-top: 20px;
+    line-height: 40px;
+    width: 40%;
+    text-align: center;
+}
+
+.greeting {
+    text-transform: uppercase;
+    color: crimson;
+}
+
+.imp {
+    color: #120808;
+    text-decoration: underline dashed;
+}
+
+.imp1 {
+    color: brown;
+}
+
+.region {
+    width: 60%;
+    margin-top: 30px;
+    padding-left: 280px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.region a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.hire {
+    display: block;
+    float: left;
+    width: 30%;
+    background: black;
+    margin-right: 20px;
+    padding: 8px 5px 8px 5px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cv {
+    display: block;
+    float: left;
+    width: 30%;
+    background: crimson;
+    margin-left: 20px;
+    padding: 8px 5px 8px 5px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.hire:hover, .cv:hover {
+    font-size: 1.1em;
+}
+
+.about{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.about-heading{
+    text-align: center;
+    width: 19%;
+    margin-top: 50px;
+    margin-bottom: 43px;
+    height: 190px;
+    border-radius: 350px;
+    padding: 30px;
+    margin: auto;
+    background-color: rgb(255, 147, 185);
+    margin-bottom: 83px;
+    margin-top: 83px;
+    padding-top: 75px;
+
+}
+
+.about-me {
+    width: 45%;
+    text-align: center;
+    padding-left: 28%;
+    margin-bottom: 140px;
+    height: 200px;
+    font-size: 21px;
+}
+
+.detials {
+    width: 100%;
+    height: 500px;
+}
+
+.experiences {
+    display: block;
+    float: left;
+    width: 34%;
+    height: 100%;
+    background-color: rgb(209, 234, 234);
+    transition-property: all;
+    transition-duration: 1s;
+}
+.experiences:hover{
+    background-color: rgb(242, 205, 205);
+}
+
+.stats {
+    display: block;
+    float: left;
+    width: 33%;
+    height: 100%;
+    background-color: rgb(183, 230, 214);
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.stats:hover{
+    background-color: rgb(242, 205, 205);
+}
+
+.skills {
+    display: block;
+    float: left;
+    width: 33%;
+    height: 100%;
+    background-color: azure;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.skills:hover{
+    background-color: rgb(242, 205, 205);
+}
+.contact{
+    height: 550px;
+    width: 100%;
+    background-color: rgb(249, 245, 239);
+    margin: auto;
+    justify-content: center;
+    
+}
+.center{
+    width: 85%;
+    height: 30px;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+}
+.border2{
+    border: 3px solid black;
+    height: 450px;
+    width: 39%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 17px;
+}
+#text{
+    height: 100px;
+}
+
+.exp, .sta, .skill {
+    text-transform: capitalize;
+    padding-left: 60px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.exp-text, .sta-text, .skill-text {
+    padding-left: 30px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.exp-list, .sta-list, .skill-list {
+    padding-left: 50px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.exp-list li, .sta-list li, .skill-list li {
+    padding-top: 10px;
+}
+
+.footer {
+    margin-top: 30px;
+    color: #FFF;
+    background-color: black;
+    height: 500px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sector {
+    width: 100%;
+    height: 380px;
+}
+
+.ql, .sm, .cm, .go {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.ql-1, .sm-1, .cm-1, .go-1 {
+    padding: 30px;
+}
+
+.go img {
+    width: 75%;
+    height: auto;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer a {
+    color: #FFF;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.sma {
+    float: left;
+    padding-top: 20px;
+    padding-left: 25px;
+    font-size: 22px;
+}
+
+.qls {
+    padding-top: 10px;
+    padding-left: 120px;
+    
+}
+
+.cm-1 p {
+    padding-top: 20px;
+}
+
+.ending-text {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+

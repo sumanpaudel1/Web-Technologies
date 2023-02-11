@@ -1,0 +1,171 @@
+@media screen and (max-width: 1320px){
+    .nav_ul {
+        display: flex;
+        flex-direction: column;
+        height: 69px;
+        width: 50%;
+        padding: 30px;
+        font-size: 50px;
+        text-align: center;
+        background-color: black;
+        opacity: 0;
+    }
+    
+    .nav ul li {
+        padding: 30px;
+    }
+   
+   .burger {
+    float: right;
+    height: 80px;
+    width: 80px;
+    background-color: #000;
+    padding: 16px;
+    display: block;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.nav{
+    background-color: black;
+    height: 138px;
+}
+.sp{
+    height: 115px;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    height: 915px;
+    width: 100%;
+}
+.info{
+    margin-left: 240px;
+    margin-bottom: 237px;
+    padding: 0%;
+}
+.image{
+    margin-top: 200px;
+    margin-left: 364px;
+}
+.cv{
+    padding: 0;
+    width: 30%;
+
+}
+.cont{
+    margin-left: 565px;
+}
+.suman-text{
+    padding-left: 234px;
+}
+.region{
+    margin-left: -64px;
+}
+
+
+}
+
+@media screen and (max-width: 861px){
+    .image{
+        margin-left: 184px;
+    }
+    .info{
+        margin-left: 148px;
+    }
+    .suman-text{
+        padding-left: 148px;
+        width: 80%;
+    }
+    .region{
+        margin-left: -181px;
+        width: 94%;
+    }
+    .cont{
+        margin-left: 338px;
+    }
+    .about-heading{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 600px){
+    
+    .background{
+        width: 112%;
+    }
+    .about{
+        width: 110%;
+    }
+    .footer{
+        width: 110%;
+    }
+    .image{
+        margin-left: 54px;
+        margin-top: 341px;
+    }
+    .info{
+        margin-left: 105px;
+    }
+    .suman{
+        text-align: center;
+        padding-top: 2px;
+        font-size: 53px;
+    }
+    .suman-text{
+        padding-left: 20px;
+        width: 93%;
+    }
+    .region{
+        margin-left: -251px;
+        width: 130%;
+    }
+    .about-me{
+        width: 71%;
+        padding-left: 15%;
+    }
+    .detials{
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+    }
+    .experiences {
+        width: 100%;
+        
+    }
+    .stats{
+        width: 100%;
+    }
+    .skills{
+        width: 100%;
+    }
+    .cont{
+        margin-left: 232px;
+    }
+    .ql, .sm, .cm, .go {
+        width: 32%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
